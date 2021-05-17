@@ -1,0 +1,64 @@
+{{#unless videolist.movies}}
+  <h3 class="ui center aligned message">Awww such empty. Start by adding some movies will ya!</h3>
+{{/unless}}
+
+{{#if videolist.movies}}
+
+  <table class="ui fixed striped table">
+    <thead>
+      <tr>
+        <th class="four wide">Movie</th>
+        <th class="four wide">Actor</th>
+        <th class="three wide">Genre</th>
+        <th class="three wide">Duration</th>
+        <th class="one wide"> </th>
+        <th class="one wide"> </th>
+      </tr>
+    </thead>
+  <tbody>
+      {{#each videolist.movies}}
+      <form class = "ui form" action="/videolist/{{../videolist.id}}/updatemovie/{{id}}" method="POST">
+      <tr class="fields">
+        <td class="field">
+          <span class="ui input">
+           <input placeholder="Title" type="text" size="30" name="title" autofocus required value = "{{capitalise title}}">
+          </span>
+        </td>
+        <td class="field">
+          <span class="ui input">
+            <input placeholder="Actor" type="text" size="30" name="actor" required value = "{{capitalise actor}}">
+          </span>
+        </td>
+        <td class="field">
+          <span class="ui input">
+            <input placeholder="Genre" type="text" name="genre" required value = "{{capitalise genre}}">
+          </span>
+        </td>
+        <td class="field">
+          <span class="ui input">
+            <input placeholder="Duration" type="text" name="duration" required value = "{{duration}}">
+          </span>
+        </td>
+        <td class="center aligned">
+          <button class="ui submit icon button"><i class="icon pencil alternate"></i></button>
+        </td>
+        <td class="center aligned">
+          <a href="/videolist/{{../videolist.id}}/deletemovie/{{id}}" class="ui icon button delmovie">
+            <i class="icon trash"></i>
+          </a>
+        </td>
+      </tr>
+      </form> 
+      {{/each}}
+    </tbody>
+  </table>
+
+  <p>
+    <span id="rating"> </span>
+  </p>
+
+  <button class="ui blue button" onclick="getRating()">
+    Rate it! <i class="star icon"></i>
+  </button>
+
+{{/if}}

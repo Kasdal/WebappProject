@@ -1,0 +1,76 @@
+{{> menu}}
+
+
+<section class="ui two column grid segment">
+  <div class="ui column grey">
+    <h1 class="ui header">
+      Welcome to the Movie - Hub App, {{uppercase fullname}}!
+    </h1>
+      <p>
+        This app will allow users to create and maintain a collection of videos.
+      </p>
+      <div class="buttons">
+        <button class="ui blue button" onclick="showHide()">
+          Reveal <i class="arrow circle right icon"></i>
+        </button>
+        <button class="ui violet button" onclick="alert('Wow! Glad you enjoy it!')">
+          Like it? <i class="thumbs up icon blue"></i>
+        </button>
+        <button class="ui black button" onclick="welcomeUser()">
+          Feeling blue? <i class="user icon orange"></i>
+        </button>
+      </div>
+      <div id="readmore" class="ui message">
+        <p>
+          Hello, this app will help you maintain your video library. You can add new videos, delete  and rate them. Enjoy!
+        </p>  
+      </div>
+      <div id="welcomeuser" class="ui message" onclick="hideWelcome()"> </div>
+
+      <div class="ui divider"></div>
+    
+      <h3 class="ui center aligned header">The Video - Hub now contains:</h3>
+      <div class="ui two statistics">
+        <div class="ui huge statistic">
+          <div class="value">
+            {{totalVideolists}}
+          </div>
+          <div class="label">
+            Videolists
+          </div>
+        </div>
+        <div class="ui huge statistic">
+          <div class="value">
+            {{totalMovies}}
+          </div>
+          <div class="label">
+            Movies
+          </div>
+        </div>
+    </div>
+
+  </div>
+  
+  <div class="ui column grey">
+    <div class="ui grid">
+      <div class="ui eight wide column orange">
+        <img class="ui big rounded image" src="https://cdn.glitch.com/46d80e31-1279-4360-a92a-cb9d8a72c05d%2FR-1083981-1282286108.jpeg.jpg?v=1582735110019">
+      </div>
+      <div class="ui eight wide column orange">
+        <img class="ui big rounded image" src="https://cdn.glitch.com/46d80e31-1279-4360-a92a-cb9d8a72c05d%2FR-3604324-1337040384-1525.jpeg.jpg?v=1582735195402">
+      </div>
+      <div class="ui eight wide column orange">
+        <img class="ui big rounded image" src="https://cdn.glitch.com/46d80e31-1279-4360-a92a-cb9d8a72c05d%2Fepisode-56-star-wars-the-u-KCSQjTWrv-A8oN3Cl7QeK.600x600.jpg?v=1582735285585">
+      </div>
+      <div class="ui eight wide column orange">
+        <img class="ui big rounded image" src="https://cdn.glitch.com/46d80e31-1279-4360-a92a-cb9d8a72c05d%2F600x600.jpg?v=1582735339676">
+      </div>
+    </div>
+  </div>
+
+</section>
+<section
+    <div class="responsive">
+<style>.codegena{position:relative;width:100%;height:0;padding-bottom:56.27198%;}.codegena iframe{position:absolute;top:0;left:0;width:100%;height:100%;}/*Youtube Embed Code : Created with Codegena.com */</style><div class="codegena"><iframe width='500' height='294' src="https://www.youtube.com/embed/epgkqPJ_bc0?&theme=dark&autoplay=1&keyboard=1&autohide=1&modestbranding=1&fs=0&showinfo=0&rel=0&iv_load_policy=3"frameborder="0"></iframe></div><div style='font-size: 0.8em'><a href='http://codegena.com/generator/Youtube-Embed-Code-Generator.html'></a></div>
+  </div>
+</section>

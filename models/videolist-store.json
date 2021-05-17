@@ -1,0 +1,36 @@
+{
+  "videolistCollection": [
+    {
+      "id": "ba238c74-860b-46b1-a520-d4a1ff5f0f81",
+      "userid": "2b6f0989-7b7f-4a38-ad26-aa06b922d751",
+      "title": "DRAMA",
+      "picture": "http://res.cloudinary.com/dmepo58r1/image/upload/v1587513879/befdzsti4jaosn9ao4wb.jpg",
+      "date": "2020-04-22T00:04:39.059Z",
+      "movies": [
+        {
+          "id": "c292875d-0e1b-4f89-a056-2a1af6a2f746",
+          "title": "Matrix",
+          "actor": "Keanu",
+          "genre": "Classical",
+          "duration": "22"
+        }
+      ]
+    },
+    {
+      "id": "9548599e-6fb7-49e3-b482-7eedbb76dd81",
+      "userid": "d21b5369-7251-4508-b877-9485111050db",
+      "title": "k",
+      "picture": "http://res.cloudinary.com/dmepo58r1/image/upload/v1588082677/zkhyc4fgxes8bv4qiyj0.jpg",
+      "date": "2020-04-28T14:04:37.495Z",
+      "movies": [
+        {
+          "id": "4385935b-fbcc-471e-8edc-a4c210740ebe",
+          "title": "I",
+          "actor": "Jjj",
+          "genre": "Kkk",
+          "duration": "22"
+        }
+      ]
+    }
+  ]
+}
