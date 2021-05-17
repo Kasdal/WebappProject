@@ -1,0 +1,15 @@
+{{> menu id="about"}}
+
+
+<section class="ui center aligned middle aligned segment">
+  <h2 class="ui header grey">
+    The movie hub app team: 
+  </h2>
+
+  <div class="ui centered cards red">
+    {{#each developers}}
+      {{> card}}
+    {{/each}}
+    {{> footer}}
+  </div>
+</section>

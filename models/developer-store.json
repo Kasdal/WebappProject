@@ -1,0 +1,58 @@
+{"developers":
+  [
+    {
+      "name":"Carlos",
+      "fullname":"Carlos Brock",
+      "image":"https://cdn.glitch.com/f9f7b6f1-1818-4bc4-b956-1370541765c0%2Funnamed.jpg?v=1582744784827",
+      "joined":2010,
+      "job":"Front-End Developer",
+      "city":"Boston",
+      "friends":35
+    },
+    {
+      "name":"Rico",
+      "fullname":"Rico Dawson",
+      "image":"https://cdn.glitch.com/f9f7b6f1-1818-4bc4-b956-1370541765c0%2FCeAIyE7W0AAhT95.jpg?v=1582744793531",
+      "joined":2019,
+      "job":"Art Director",
+      "city":"New York",
+      "friends":233
+    },
+    {
+      "name":"Elliot",
+      "fullname":"Elliot Griffindor",
+      "image":"https://cdn.glitch.com/f9f7b6f1-1818-4bc4-b956-1370541765c0%2FUmicore-Thomas-Leysen-Picture-2-600x600.png?v=1582744799666",
+      "joined":2015,
+      "job":"Lead Developer",
+      "city":"Dublin",
+      "friends":67
+    },
+        {
+      "name":"Brock",
+      "fullname":"Brock Kirk",
+      "image":"https://cdn.glitch.com/f9f7b6f1-1818-4bc4-b956-1370541765c0%2FDee-Forbes-colour-600x600.png?v=1583068484041",
+      "joined":2010,
+      "job":"Back-End Developer",
+      "city":"Boston",
+      "friends":35
+    },
+    {
+      "name":"Kelly",
+      "fullname":"Kelly Dawson",
+      "image":"https://cdn.glitch.com/f9f7b6f1-1818-4bc4-b956-1370541765c0%2FEllie-Kisyombe-600x600.jpg?v=1583068489828",
+      "joined":2019,
+      "job":"Director",
+      "city":"New York",
+      "friends":66
+    },
+    {
+      "name":"Frank",
+      "fullname":"Frank Griff",
+      "image":"https://cdn.glitch.com/f9f7b6f1-1818-4bc4-b956-1370541765c0%2Flarge.png?v=1583068495154",
+      "joined":2015,
+      "job":"Assistant",
+      "city":"New York",
+      "friends":54
+    }
+  ]
+}
